@@ -39,9 +39,7 @@ public class singlyLinkedList {
     // Display the list with pointers
     void displaynodes() {
         Node current = head;
-
         while (current != null) {
-
             System.out.print("Data: " + current.data);
             System.out.print(" | Current pointers: " + current);
             System.out.print(" | Next: ");
@@ -51,7 +49,6 @@ public class singlyLinkedList {
             } else {
                 System.out.println("null");
             }
-
             current = current.next;
         }
     }
